@@ -1,0 +1,9 @@
+coeziune mare:
+-responsabilitatea fiecarei clase este bine definita si se adreseaza responsabilitatilor proprii (se axeaza pe un anumit lucru)
+-metodele sunt legate de scopul clasei (clasele SMS/Email au metode care realizeaza actiuni specifice sms-urilor sau email-urilor)
+
+
+cuplaj redus:
+-se refera la gradul de dependenta a unei clase de alte clase
+-clasa nu este conectata de alte clase, decat minimal
+(clasa Message are o relatie doar cu clasa User)
